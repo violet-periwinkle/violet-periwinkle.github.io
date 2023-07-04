@@ -1,0 +1,65 @@
+button{
+    border-radius: 50%;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+.buttonbox{
+    display: flex;
+    padding: 1%;
+    margin: 1%;
+}
+.home-button{
+    background-color: #80ff40;
+    width: 20%;
+    height: 20%;
+    float: left;
+    border-radius: 0em;
+}
+.blue-button{
+    background-color: #2040e0;
+    margin-bottom: 2em;
+}
+.red-button{
+    background-color: #e02040;
+    margin-top: 2em;
+}
+.green-button{
+    background-color: #80c060;
+    margin-bottom: 2em;
+}
+.purple-button{
+    background-color: #a060a0;
+    margin-top: 2em;
+}
+.yellow-button{
+    background-color: #e0d060;
+    margin-bottom: 2em;
+}
+.orange-button{
+    background-color: #ff9040;
+    margin-top: 2em;
+}
+.glass{
+    background-image: linear-gradient(transparent 2%, #ffffff30 2%, #ffffff48 50%, transparent 50%), linear-gradient(#00000060, transparent);
+    background-size: 0.5, 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f0f0f0;
+    text-shadow: #00000080 0em -0.05em, #ffffff80 0em 0.05em;
+}
+.glass:active{
+    background-image: linear-gradient(#00000060, transparent 60%, #00000020);
+    color: #f0f0f000;
+}
+.radial{
+    background-image: radial-gradient(ellipse 35% 20% at 50% 25%, #ffffff20, #ffffff48 100%, transparent 100%), radial-gradient(circle farthest-side at 50% 70%, transparent 25%, #00000060 100%);
+    color: #f0f0f0;
+    text-shadow: #00000080 0em -0.05em, #ffffff80 0em 0.05em;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #80808080
+}
+.radial:active{
+    background-image: radial-gradient(circle farthest-side at 50% 40%, transparent 50%, #00000060);
+    color: #f0f0f000;
+}
