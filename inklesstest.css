@@ -7,6 +7,7 @@ button{
     display: flex;
     padding: 1%;
     margin: 1%;
+    background-color: #80e0ff;
 }
 .home-button{
     background-color: #80ff40;
@@ -16,27 +17,27 @@ button{
     border-radius: 0em;
 }
 .blue-button{
-    background-color: #2040e0;
+    background-color: #0000ff;
     margin-bottom: 2em;
 }
 .red-button{
-    background-color: #e02040;
+    background-color: #ff0000;
     margin-top: 2em;
 }
 .green-button{
-    background-color: #80c060;
+    background-color: #00ff00;
     margin-bottom: 2em;
 }
 .purple-button{
-    background-color: #a060a0;
+    background-color: #a000ff;
     margin-top: 2em;
 }
 .yellow-button{
-    background-color: #e0d060;
+    background-color: #ffff00;
     margin-bottom: 2em;
 }
 .orange-button{
-    background-color: #ff9040;
+    background-color: #ff8000;
     margin-top: 2em;
 }
 .glass{
