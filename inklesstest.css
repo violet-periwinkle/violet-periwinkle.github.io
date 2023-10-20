@@ -52,6 +52,7 @@ button{
     background-image: linear-gradient(#00000060, transparent 60%, #00000020);
     color: #f0f0f000;
 }
+/*Trying to make round glass buttons. Shine looks alright but text is not clear enough.*/
 .radial{
     background-image: radial-gradient(ellipse 35% 20% at 50% 25%, #ffffff20, #ffffff48 100%, transparent 100%), radial-gradient(circle farthest-side at 50% 70%, transparent 25%, #00000060 100%);
     color: #f0f0f0;

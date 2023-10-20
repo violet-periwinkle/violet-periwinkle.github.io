@@ -2,14 +2,21 @@ body{
     background-color: #e0e0ff;
     font-family: sans-serif;
     color: #100020;
-    padding: 0em;
-    margin: 0em;
+    padding: 0.5em;
+    margin: 0.25em;
 }
 .headerbox{
     background-color: #c0c0f0;
     font-weight: normal;
-    margin: 0.25em;
+    margin: 0em;
     padding: 0.25em 0.5em;
+}
+h1{
+    font-size: 1.5em;
+}
+.main{
+    background-color: #e0e0f8;
+    padding: 0.5em;
 }
 a{
     font-weight: lighter;
